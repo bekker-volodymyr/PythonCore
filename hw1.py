@@ -1,1 +1,0 @@
-print("Some home work")
