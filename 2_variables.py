@@ -38,6 +38,19 @@ print("Привіт, ", user_name)
 user_age = input("Введіть ваш вік: ")
 print("Вам", user_age, "років")
 
+# Функції-конструктори
+variable_int = int()
+variable_float = float()
+variable_str = str()
+
+var_int = int('10')
+var_float = float('8.9')
+var_str = str(10)
+
+print(f"{var_int} {type(var_int)}")
+print(f"{var_float} {type(var_float)}")
+print(f"{var_str} {type(var_str)}")
+
 # Перетворення типів
 num1 = input("Введіть перше число: ")
 num2 = input("Введіть друге число: ")
