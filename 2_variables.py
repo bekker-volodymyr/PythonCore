@@ -17,6 +17,20 @@ print(number)
 number += 5 # number = number + 5
 print(number)
 
+# обмін значеннями двох змінних
+a = 10
+b = 12
+
+print(f'a = {a}, b = {b}')
+
+a, b = b, a
+
+# temp = a
+# a = b
+# b = temp
+
+print(f'a = {a}, b = {b}')
+
 # скорочені оператори присвоєння
 number += 5
 number -= 5
@@ -37,6 +51,14 @@ print("Привіт, ", user_name)
 
 user_age = input("Введіть ваш вік: ")
 print("Вам", user_age, "років")
+
+# None - нічого
+var = None
+print(var)
+print(type(var))
+
+del var
+# print(var) # NameError
 
 # Функції-конструктори
 variable_int = int()
