@@ -51,3 +51,43 @@ text_modified = text.replace('l', 'P')
 text_modified2 = text.replace('world', 'python')
 print(text_modified)
 print(text_modified2)
+
+splitted = text.split(', ')
+print(splitted)
+
+part1 = 'Hello'
+part2 = 'Python'
+
+concat = part1 + ', ' + part2 + '!'
+print(concat)
+
+symbol = '*'
+print(symbol * 8)
+
+if 'a' in 'apple':
+    print('a in apple')
+
+if 'Hello' in concat:
+    print('Hello in concat')
+
+if text.startswith('Hello'):
+    print('this is greeting')
+
+if text.endswith('!'):
+    print('this is exclamation')
+
+fruit = input('Enter fruit name: ')
+if fruit == 'apple':
+    print('fruit is an apple')
+
+print('lemon' > 'apple') # True
+print('green' < 'blue') # False
+
+
+message = 'Hello, Unicode!'
+
+encoded = message.encode("utf-16")
+print(encoded)
+
+decoded = encoded.decode("utf-16")
+print(decoded)
