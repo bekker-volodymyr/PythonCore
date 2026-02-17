@@ -62,6 +62,8 @@ new_dict = {
     12: 12.4
 }
 
+print(type(new_dict))
+
 contacts = {
     'Антон': '0505550960',
     'Настя': '0470995838'
@@ -92,4 +94,32 @@ for pair in contacts.items(): # перебір пар ключ-значення
 contacts.pop('Антон')
 contacts.popitem()
 contacts.clear()
+
+contacts_copy = contacts.copy()
+
+contacts_copy['Тимур'] = '050545342343'
+
+employees = {
+    'Employee1' : {
+        'Name': 'Антон',
+        'Position': 'Manager',
+        'Salary': 45000
+    },
+    'Employee2' : {
+        'Name': 'Катерина',
+        'Position': 'Senior Developer',
+        'Salary': 80000
+    },
+    'Employee3' : {
+        'Name': 'Максим',
+        'Position': 'UI/UX Designer',
+        'Salary': 55000
+    }
+}
+
+print(employees['Employee2']['Name'])
+
+for employee in employees:
+    for key in employees[employee]:
+        print(f'{key}: {employees[employee][key]}')
 
