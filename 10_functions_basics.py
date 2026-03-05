@@ -160,3 +160,16 @@ def func():
 func()
 
 print(var)
+
+def calculate_data():
+    # Якась логіка
+    return "Дані оброблено"
+
+def main():
+    # Основний сценарій роботи
+    print("Програма запускається...")
+    result = calculate_data()
+    print(result)
+
+if __name__ == "__main__":
+    main()
