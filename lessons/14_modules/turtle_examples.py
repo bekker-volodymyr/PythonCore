@@ -1,18 +1,5 @@
-# import math
-# import random
-
-# # r = random.randint(10, 15)
-# f = math.factorial(20)
-
-from math import factorial
-from random import randint
-
-r = randint(10, 15)
-f = factorial(20)
-
-print(f"Random number: {r}\nFactorial of 20: {f}")
-
 import turtle
+from random import randint
 
 turtle.shape('turtle')
 turtle.pensize(5)
